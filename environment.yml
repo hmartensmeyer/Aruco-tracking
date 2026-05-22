@@ -1,0 +1,12 @@
+name: buoy_tracker_env
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python=3.12.2
+- numpy=1.26.4
+- scipy=1.13.1
+- matplotlib=3.9.2
+- pillow=10.4.0
+- pip:
+  - sv-ttk==2.6.1

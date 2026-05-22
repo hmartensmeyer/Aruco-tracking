@@ -1,0 +1,33 @@
+# macOS / editor noise
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large/raw experiment data
+buoy_tracking_data/
+old_code/buoy_tracking_data_legacy/
+
+# Video files
+*.mp4
+*.mov
+*.avi
+
+# Generated plot/image outputs
+plot/*.png
+plot/*.jpg
+plot/*.jpeg
+plot/*.pdf
+
+# Blender backup files
+*.blend1
