@@ -99,7 +99,7 @@ MARKER_RELATIVE_GEOMETRY = {
 # This vector translates from BRF origin to the physical CoG of the buoy.
 BUOY_COG_OFFSET_METERS = 0#.37768 # HMM: manually set. For a different system, do we need this?
 BUOY_COG_OFFSET_VECTOR_ASSEMBLY_FRAME = np.array(
-    [0, -BUOY_COG_OFFSET_METERS, 0*-1/3 * TRIANGLE_SIDE_LENGTH_METERS], dtype=np.float32
+    [0, -BUOY_COG_OFFSET_METERS, -1/3 * TRIANGLE_SIDE_LENGTH_METERS], dtype=np.float32
 )
 
 # File and directory paths

@@ -4,6 +4,9 @@ from pathlib import Path
 
 import matplotlib.pyplot as plt
 
+# generate calibration pattern
+# usage: python generatePattern.py --square-size-cm 2.5
+
 
 def parse_args():
     parser = argparse.ArgumentParser(
