@@ -104,8 +104,8 @@ MARKER_RELATIVE_GEOMETRY = {
 
 # Alternatively, the OCTOGON
 # Octagon marker geometry relative to X0 (first marker of the buoy)
-# Face-to-opposite-face distance is 9.1 cm.
-OCTOGON_FACE_TO_FACE_METERS = 0.091
+# Face-to-opposite-face distance is 9.2 cm.
+OCTOGON_FACE_TO_FACE_METERS = 0.092
 OCTOGON_CENTER_TO_FACE_METERS = OCTOGON_FACE_TO_FACE_METERS / 2
 OCTOGON_ANGLE_STEP_RAD = 2 * np.pi / MARKERS_PER_BUOY
 
@@ -162,7 +162,7 @@ DEFAULT_DIST_COEFFS = np.zeros((5, 1), dtype=np.float32)
 
 # Calibration chessboard settings
 CALIBRATION_CHESSBOARD_SHAPE = (9, 6) # Number of internal corners (cols, rows)
-CHESSBOARD_SQUARE_SIZE_MM = 26.9 # Physical size of one square on the chessboard in mm
+CHESSBOARD_SQUARE_SIZE_MM = 25 # Physical size of one square on the chessboard in mm
 BUOY_GEOMETRY_CALIB_MIN_SAMPLES_PER_PAIR = 5 # Min good samples required per (X0, Xi) pair for buoy calibration
 
 # Logging and trajectory settings
